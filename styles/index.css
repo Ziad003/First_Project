@@ -1,0 +1,94 @@
+
+.open-sans-fornt {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.dark2{
+    color: #474747;
+    
+}
+.title_desired{
+    color: #FD6E0A;
+}
+.navigation{
+    display: flex;
+}
+.primary-button{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li a{
+    text-decoration: none;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+}
+.greeding{
+    font-weight: 500;
+    font-size: 45px;
+}
+.name{
+    font-weight: 700;
+    font-size: 85px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 38px 0 230px;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+.content1{
+    width: 585;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
